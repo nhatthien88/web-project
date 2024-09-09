@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ | OHOME</title>
+    <link rel="stylesheet" href="lienhe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- xử lí scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+
+    <section class="bgr">
+        <hr>
+        <div class="bgr-img">
+            <img src="../IMG/lienhe_bgr.jpg" alt="bgr">
+        </div>
+        <p class="a-hover"><a href="http://127.0.0.1:5500/Home/index.html" class="a-hover hidden-section">Trang chủ</a>
+            > <a href="#" class="a-hover">LIÊN HỆ</a></p>
+        <p class="text_lienhe">Quý Khách hàng có thể liên hệ với chúng tôi thông qua các kênh sau để được giải đáp mọi
+            thắc mắc một cách nhanh chóng</p>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </section>
+
+    <section class="thongtin">
+        <h1>Thông tin liên hệ</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.764100538608!2d106.68809457512764!3d10.675409961048732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31753100099ce9ed%3A0xdb6079801f0735ea!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLiBI4buTIENow60gTWluaCAoY8ahIHPhu58gMyk!5e0!3m2!1svi!2s!4v1725870415811!5m2!1svi!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="thongtinlamviec">
+            <div class="mota">
+                <div class="mota_img">
+                    <img src="../IMG/tgian-lam-viec.png" alt="thời gian ">
+                </div>
+
+                <div class="mota_text">
+                    <h2>Giờ làm việc của OhomeBank</h2>
+                    <table>
+                        <tr>
+                            <td>Từ thứ 2 đến thứ 6: </td>
+                            <td>Thứ 7: </td>
+                            <td>ATM/ LiveBank/ App OhomeBank</td>
+                        </tr>
+                        <tr>
+                            <td>08:00 - 17:00</td>
+                            <td>08:00 - 12:00</td>
+                            <td>Mở cửa 24/7</td>
+                        </tr>
+                        <tr>
+                            <td>Hướng dẫn sử dụng tổng đài</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mota">
+                <div class="mota_img">
+                    <img src="../IMG/lien-he-TPBank.png" alt="liên hệ ">
+                </div>
+
+                <div class="mota_text">
+                    <h2>Các đầu số Khách hàng liên hệ với OhomeBank</h2>
+                    <table>
+                        <tr>
+                            <td>Từ trong nước:  </td>
+                            <td></td>
+                            <td>Từ nước ngoài</td>
+                        </tr>
+                        <tr>
+                            <td>1900 1234</td>
+                            <td>1900 58 58 12</td>
+                            <td>02345678</td>
+                        </tr>
+                        <tr>
+                            <td>Hướng dẫn sử dụng tổng đài</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mota">
+                <div class="mota_img">
+                    <img src="../IMG/lien-he-KH.png" alt="liên hệ khách hàng ">
+                </div>
+
+                <div class="mota_text">
+                    <h2>Các đầu số OhomeBank liên hệ với Khách hàng</h2>
+                    <table>
+                        <tr>
+                            <td>T0234 7897 </td>
+                            <td>0234 0929 992</td>
+                            <td>124 23312 21</td>
+                        </tr>
+                        <tr>
+                            <td>Hướng dẫn sử dụng tổng đài</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mota">
+                <div class="mota_img">
+                    <img src="../IMG/chat-lh-img.png" alt="thời gian ">
+                </div>
+
+                <div class="mota_text">
+                    <h2>Chat trực tiếp với OhomeBank</h2>
+                    <table>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <td>Facebook</td>
+                            <td>Zalo</td>
+                            <td>TikTok</td>
+                        </tr>
+                        <tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+    <div class="hrr">
+        <hr>
+    </div>
+    <section class="section2 hidden-section">
+        <div class="footer">
+            <div class="footer-lv1">
+                <h5>Khách hàng cá nhân</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Cho vay</li>
+                <li class="list-item">Tiết kiệm</li>
+                <li class="list-item">Bảo hiểm</li>
+                <li class="list-item">Sản phẩm khác</li>
+                <li class="list-item">Tiện ích</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Khách hàng doanh nghiệp</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Tiền gửi</li>
+                <li class="list-item">Thanh toán Quốc tế</li>
+                <li class="list-item">Bảo lãnh</li>
+                <li class="list-item">Cho vay & Tài trợ</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Sản phẩm khác</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Về Ohome</h5>
+                <li class="list-item">Lịch sử phát triển</li>
+                <li class="list-item">Ban lãnh đạo</li>
+                <li class="list-item">Sơ đồ tổ chức</li>
+                <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                <li class="list-item">Giá trị cốt lõi</li>
+                <li class="list-item">Hoạt dộng cộng đồng</li>
+                <li class="list-item">Giải thưởng</li>
+                <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+            </div>
+            <div class="footer-lv2">
+                <h5>Dịch vụ khách hàng</h5>
+                <div class="list-icon-footer">
+                    <div class="list-icon-lv1">
+                        <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                        <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="list-icon-lv1">
+                        <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="end-footer">
+                        <li class="list-item">Điều khoản sử dụng</li>
+                        <li class="list-item">An toàn sử dụng</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footerr">
+        <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

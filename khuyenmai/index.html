@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khuyến Mãi | OHOME</title>
+    <link rel="stylesheet" href="khuyenmai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- xử lí scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+    <section class="bgr">
+        <hr>
+        <div class="bgr-img">
+            <img src="../IMG/z3775570223226_2e4c3c716b2901435b8c1c3b7f3b0168.jpg" alt="bgr khuyến mãi">
+        </div>
+        <p class="a-hover"><a href="http://127.0.0.1:5500/Home/index.html" class="a-hover hidden-section">Trang chủ</a>
+            > <a href="#" class="a-hover">KHUYẾN MÃI</a></p>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </section>
+
+    <section class="cacloaikhac">
+        <div class="tatca">
+            <img src="../IMG/icon-all.png" alt="">
+            <p>Tất cả</p>
+        </div>
+        <div class="thetindung">
+            <img src="../IMG/Group+1840.png" alt="">
+            <p>Thẻ tín dụng</p>
+        </div>
+        <div class="chovay">
+            <img src="../IMG/icon-all.png" alt="">
+            <p>Cho vay</p>
+        </div>
+        <div class="tietkiem">
+            <img src="../IMG/Group+1834.png" alt="">
+            <p>Tiết kiệm</p>
+        </div>
+        <div class="nganhang">
+            <img src="../IMG/Group+1841.png" alt="">
+            <p>Ngân hàng điện tử</p>
+        </div>
+        <div class="khachhang">
+            <img src="../IMG/Group+1830.png" alt="">
+            <p>Khách hàng doanh nghiệp</p>
+        </div>
+        <div class="dichvukhac">
+            <img src="../IMG/Dots.png" alt="">
+            <p>Dịch vụ khác</p>
+        </div>
+    </section>
+    <section class="section1">
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/image001-1702279043784.png" alt="img">
+                <div class="xemthem flex">
+                    <p>Combo deal sắm đã với OhomeBank</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: </li>
+                        <li>Sản phẩm: khác</li>
+                        <li>Địa điểm: Toàn quốc</li>
+                        <li>Thời gian: 30/07/2004 - 31/12/2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/5adb11cab6f44d589cc491796b8606b9_7o1a1771.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tổng hợp ưu đãi đi chill với OhomeBank</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: </li>
+                        <li>Sản phẩm: khác</li>
+                        <li>Địa điểm: Toàn quốc</li>
+                        <li>Thời gian: 1/1/2004 - 31/12/2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-info1">
+                <img src="../IMG/KV-01.png" alt="img">
+                <div class="xemthem flex">
+                    <p>Tổng hợp ưu đãi sành ăn với OhomeBank</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: </li>
+                        <li>Sản phẩm: khác</li>
+                        <li>Địa điểm: </li>
+                        <li>Thời gian: 23/08/2004 - 31/12/2024</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/anh-mo-ta.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tuyến phố OhomeBank | Tặng 30K khi thanh toán QRcode OhomeBank</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: </li>
+                        <li>Sản phẩm: khác</li>
+                        <li>Địa điểm: Hà Nội, Hồ Chí Minh, Đà Nẵng, Hải Phòng, Quảng Ninh</li>
+                        <li>Thời gian: 12/07/2004 - 30/11/2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/MSIG.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>MSIG | Ưu đãi tới 10% khi mua bảo hiểm du lịch</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: MSIG</li>
+                        <li>Sản phẩm: Thẻ tín dụng</li>
+                        <li>Địa điểm: Toàn quốc</li>
+                        <li>Thời gian: 1/1/2004 - 31/12/2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-info1">
+                <img src="../IMG/Du+lịch.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Thẻ OhomeBank JCB | Ưu đãi đặt phòng tới 30%</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: </li>
+                        <li>Sản phẩm: Thẻ tín dụng</li>
+                        <li>Địa điểm: Toàn quốc</li>
+                        <li>Thời gian: 1/07/2004 - 30/06/2025</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/NURA.png" alt="img">
+                <div class="xemthem flex">
+                    <p>NURA | Ưu đãi 600K cho mỗi gói khám NURA</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: NURA</li>
+                        <li>Sản phẩm: Thẻ tín dụng</li>
+                        <li>Địa điểm: Toàn quốc</li>
+                        <li>Thời gian: 20/07/2004 - 30/09/2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/img-edu.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>VicUni Education | Giảm tới 55% cho thẻ tín dụng OhomeBank</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: VicUni Education</li>
+                        <li>Sản phẩm: Thẻ tín dụng</li>
+                        <li>Địa điểm: 231A Nguyễn Khang, Yên Hòa, Cầu Giấy, Hà Nội</li>
+                        <li>Thời gian: 15/07/2004 - 01/06/2025</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="child-info1">
+                <img src="../IMG/Beard+Papa's_376x180.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Beard Papa's  | Giảm tới 10% cho thẻ tín dụng OhomeBank</p>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đối tác: Beard Papa's</li>
+                        <li>Sản phẩm: Thẻ tín dụng</li>
+                        <li>Địa điểm: Beard Papa's Hà Nội</li>
+                        <li>Thời gian: 15/07/2004 - 31/12/2024</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+    <div class="hrr">
+        <hr>
+    </div>
+    <section class="section2 hidden-section">
+        <div class="footer">
+            <div class="footer-lv1">
+                <h5>Khách hàng cá nhân</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Cho vay</li>
+                <li class="list-item">Tiết kiệm</li>
+                <li class="list-item">Bảo hiểm</li>
+                <li class="list-item">Sản phẩm khác</li>
+                <li class="list-item">Tiện ích</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Khách hàng doanh nghiệp</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Tiền gửi</li>
+                <li class="list-item">Thanh toán Quốc tế</li>
+                <li class="list-item">Bảo lãnh</li>
+                <li class="list-item">Cho vay & Tài trợ</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Sản phẩm khác</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Về Ohome</h5>
+                <li class="list-item">Lịch sử phát triển</li>
+                <li class="list-item">Ban lãnh đạo</li>
+                <li class="list-item">Sơ đồ tổ chức</li>
+                <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                <li class="list-item">Giá trị cốt lõi</li>
+                <li class="list-item">Hoạt dộng cộng đồng</li>
+                <li class="list-item">Giải thưởng</li>
+                <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+            </div>
+            <div class="footer-lv2">
+                <h5>Dịch vụ khách hàng</h5>
+                <div class="list-icon-footer">
+                    <div class="list-icon-lv1">
+                        <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                        <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="list-icon-lv1">
+                        <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="end-footer">
+                        <li class="list-item">Điều khoản sử dụng</li>
+                        <li class="list-item">An toàn sử dụng</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footerr">
+        <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

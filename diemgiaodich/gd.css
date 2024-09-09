@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6c63ff; 
+    border-radius: 30px; 
+    overflow: hidden; 
+    background-color: white; 
+}
+
+.search-input {
+    border: none; 
+    padding: 10px 20px; 
+    outline: none; 
+    font-size: 16px; 
+    flex: 1; 
+}
+
+.search-button {
+    background-color: #6c63ff;
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    color: white; 
+    font-size: 16px;
+}
+
+.search-button i {
+    font-size: 18px; 
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.form-item1 {
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%; 
+}
+
+.form-item1 h2 {
+    color: #6c63ff; 
+    display: flex;
+    align-items: center;
+}
+
+.form-item1 h2 i {
+    margin-right: 10px; 
+}
+
+.form-item1 p {
+    margin: 5px 0;
+}
+
+.form-item1 table {
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+.form-item1 th, .form-item1 td {
+    text-align: left;
+    padding: 8px;
+}
+
+.form-item1 th {
+    width: 40%;
+}
+
+.form-item1 .btn-map {
+    background-color: #6c63ff; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-item1 .btn-map:hover {
+    background-color: #5a52d1; 
+}
+.gd{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.button-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.gd-map{
+    margin:0 60px ;
+}
+
+.button-item1{
+    margin-right: 15px;
+    background-color: #6c63ff;
+    padding: 10px 10px;
+    border-radius: 15px  ;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer; 
+}
+.button-item1 i{
+    padding: 2px 5px;
+    color: black;
+}
+.phone-it{
+    display: flex;
+    justify-content: space-between;
+}

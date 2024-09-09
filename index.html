@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ | Ohome</title>
+    <link rel="stylesheet" href="Home/style-home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+    <!-- ======= header max-width===== -->
+    <header class="header-maxwidth">
+        <div class="logo_img">
+            <a href="http://127.0.0.1:5500/home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+        </div>
+        <a class="login" href="http://127.0.0.1:5500/dangnhap/index.html"><i class="fa-solid fa-lock"></i></a>
+    </header>
+    <section class="section1">
+        <hr>
+        <div class="bg">
+            <img src="../IMG/img-bg.jpg" alt="bg">
+        </div>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+            <i class="fas fa-chevron-up"></i>
+            </div>
+        <div class="menu flex">
+            <div></div>
+            <div class="taikhoan cssmenu khihover">
+                <div class="hieuung">
+                    <a href="http://127.0.0.1:5500/taikhoan/index.html"><img src="../IMG/taikhoan.png"
+                            alt="taikhoan"></a>
+                    <br>
+                    <a class="menuchild" href="http://127.0.0.1:5500/taikhoan/index.html">Tài khoản</a>
+                </div>
+            </div>
+            <div class="tindung cssmenu khihover">
+                <div class="hieuung">
+                    <a href="http://127.0.0.1:5500/card/index.html"><img src="../IMG/tindung.png" alt="tindung"></a>
+                    <br>
+                    <a class="menuchild" href="#">Thẻ tín dụng</a>
+                </div>
+            </div>
+            <div class="tietkiem cssmenu khihover">
+                <div class="hieuung">
+                    <a href="http://127.0.0.1:5500/tietkiem/index.html"><img src="../IMG/tietkiem.png"
+                            alt="taikhoan"></a>
+                    <br>
+                    <a class="menuchild" href="#"><span>Tiết kiệm</span></a>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </section>
+    <section class="section2">
+        <hr>
+        <div class="content flex">
+            <div class="photo">
+                <img style="max-height: 400px;" class="card-pt" src="../IMG/card.jpg" alt="card">
+            </div>
+            <div class="info">
+                <h2>Thẻ đa năng Ohome Bank Visa Flash 2in1</h2>
+                <p>Chọn trải nghiệm, Trọn chất TÔI cùng thẻ đa năng Ohome Bank Visa Flash 2in1 - dòng thẻ <b>tích hợp 2in1
+                        thẻ tín dụng & thẻ ATM (quốc tế)</b> trong 1 chip, cho phép linh hoạt chọn nguồn tiền. Chọn
+                    chiếc thẻ chuẩn gu riêng trong tích tắc, định danh trên App chỉ 1 phút, <b>có thẻ xài ngay trong 1
+                        flash,</b> vậy là Bạn đã sẵn sàng banking trọn chất TÔI!</p>
+            </div>
+        </div>
+        <div class="content flex">
+            <div class="photo">
+                <img class="card-pt" src="../IMG/chat.jpg" alt="card">
+            </div>
+            <div class="info">
+                <h2>ChatPay - Chuyển tiền y như Chat</h2>
+                <p>Giao diện chuyển tiền sáng tạo đột phá, lần đầu tiên tại Việt Nam: Chuyển tiền nhanh như <b>gõ 1 câu
+                        Chat;</b> Xem trọn <b>lịch sử giao dịch</b> như xem tin Chat; <b>Danh bạ Chuyển tiền</b> chính
+                    là danh bạ Chat/Phone. Hơn thế nữa. Bạn có thể cả nhân hóa trải nghiệm bằng cách đặt tên gợi nhớ,
+                    lưu danh sách yêu thích, đặt lịch chuyển tiền, tính tổng giá trị giao dịch với người nhận... Trải
+                    nghiệm ngay để dẫn đầu xu hướng banking!</p>
+            </div>
+
+        </div>
+        <div class="content flex">
+            <div class="photo">
+                <img class="card-pt" src="../IMG/qr.jpg" alt="card">
+            </div>
+            <div class="info">
+                <h2>QR Vạn năng</h2>
+                <p>Có QR Vạn năng, Shop không chỉ có phương thức thanh toán không tiền mặt siêu tiện lợi mà còn thảnh
+                    thơi đón khách du lịch quốc tế. <b>Chấp nhận thanh toán QR và thẻ từ du khách Thái Lan, Trung
+                        Quốc...</b> - Tất cả trong 1 mã QR! Đăng ký QR Vạn Năng - Nhận thưởng <b>5.000₫</b> cho mỗi giao
+                    dịch nhận tiền vào tài khoản từ 50.000₫ và có cơ hội nhận thêm <b>tới 1 TRIỆU đồng</b> khi đạt từ 60
+                    giao dịch. Đăng ký <b>chỉ 5 phút trên App Ohome Bank</b> & nhận ngay <b>QR trưng bày miễn phí!</b></p>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="info">
+            <div class="lienhe flex-info">
+                <a><i class="fa-solid fa-phone"></i></a>
+                <a href="http://127.0.0.1:5500/lienhe/index.html">Liên hệ</a>
+            </div>
+            <div class="vitri flex-info">
+                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="">Điểm giao dịch</a>
+            </div>
+            <div class="sale flex-info">
+                <a href="#"><i class="fa-solid fa-tag"></i></a>
+                <a href="http://127.0.0.1:5500/khuyenmai/index.html">Khuyến mãi</a>
+            </div>
+            <div class="rate flex-info">
+                <a href="#"><i class="fa-solid fa-calculator"></i></a>
+                <a href="http://127.0.0.1:5500/rate/index.html">Tỷ giá & Lãi suất</a>
+            </div>
+        </div>
+        <div class="hidden-section">
+            <h3>Có gì mới</h3>
+            <div class="xemthem">
+                <div class="xemthem1 css-xemthem">
+                    <div><img src="../IMG/xemthem1.jpg" alt="xemthem1"></div>
+                    <p><b>Ohome Bank giúp khách hàng mọi lứa tuổi xây dựng thói quên và chủ động... <br> </b>Một chiến dịch
+                        thay
+                        đổi thói quen giao dịch tại quầy sang sử dụng kênh ngân hàng số được...</p>
+                </div>
+                <div class="xemthem2 css-xemthem">
+                    <div><img src="../IMG/xemthem2.jpg" alt="xemthem2"></div>
+                    <p><b>Thẻ Ohome Bank | Tổng hợp các ưu đãi mùa hè hấp dẫn nhất 2024 <br></b>Khám phá ngay các ưu đãi
+                        mùa hè
+                        hấp dẫn nhất 2024</p>
+                </div>
+                <div class="xemthem3 css-xemthem">
+                    <img src="../IMG/xemthem3.png" alt="xemthem3">
+                    <p><b>CLB Shop Tiền Tỷ | Ưu đãi vay vốn lên tới 1 tỷ - Lãi suất 0% <br></b>Từ ngày nay đến hết tháng
+                        31/12/2024, Ohome Bank triển khai chương trình Câu lạc bộ...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+    <div class="hrr">
+        <hr>
+    </div>
+    <section class="section4 hidden-section">
+        <div class="footer">
+            <div class="footer-lv1">
+                <h5>Khách hàng cá nhân</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Cho vay</li>
+                <li class="list-item">Tiết kiệm</li>
+                <li class="list-item">Bảo hiểm</li>
+                <li class="list-item">Sản phẩm khác</li>
+                <li class="list-item">Tiện ích</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Khách hàng doanh nghiệp</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Tiền gửi</li>
+                <li class="list-item">Thanh toán Quốc tế</li>
+                <li class="list-item">Bảo lãnh</li>
+                <li class="list-item">Cho vay & Tài trợ</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Sản phẩm khác</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Về Ohome</h5>
+                <li class="list-item">Lịch sử phát triển</li>
+                <li class="list-item">Ban lãnh đạo</li>
+                <li class="list-item">Sơ đồ tổ chức</li>
+                <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                <li class="list-item">Giá trị cốt lõi</li>
+                <li class="list-item">Hoạt dộng cộng đồng</li>
+                <li class="list-item">Giải thưởng</li>
+                <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+            </div>
+            <div class="footer-lv2">
+                <h5>Dịch vụ khách hàng</h5>
+                <div class="list-icon-footer">
+                    <div class="list-icon-lv1">
+                        <a href="#" class="sdt"><i class="fa fa-phone" id="fa-phone1"></i>0392941671</a>                     
+                        <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="list-icon-lv1">
+                        <a href="#" class="list-icon1"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="end-footer">
+                        <li class="list-item">Điều khoản sử dụng</li>
+                        <li class="list-item">An toàn sử dụng</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footerr">
+    <p>Copyright @ 2024 Ohome Bank. All rights reserved.</p>
+</footer>
+
+</html>

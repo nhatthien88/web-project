@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ Tín Dụng | OHOME</title>
+    <link rel="stylesheet" href="style-card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- xử lí scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+    <!-- ======= header max-width===== -->
+    <header class="header-maxwidth">
+        <a class="logo" href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+        <a class="login" href="http://127.0.0.1:5500/dangnhap/index.html"><i class="fa-solid fa-lock"></i></a>
+    </header>
+    <section class="bgr">
+        <hr>
+        <div class="bgr-img">
+            <img src="../IMG/img-credit0.png" alt="bgr">
+        </div>
+        <p class="a-hover"><a href="http://127.0.0.1:5500/Home/index.html" class="a-hover hidden-section">Trang chủ</a>
+            > <a href="#" class="a-hover">THẺ TÍN DỤNG</a></p>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+        </div>
+    </section>
+    <div class="card">
+        <p>| <span>THẺ TÍN DỤNG</span></p>
+        <p class="hidden-section">SO SÁNH CÁC SẢN PHẨM</p>
+        <p class="hidden-section">ƯU ĐÃI SỬ DỤNG THẺ</p>
+        <p class="hidden-section">HƯỚNG DẪN SỬ DỤNG</p>
+        <p class="hidden-section">BIỂU PHÍ</p>
+    </div>
+    <section class="section1">
+        <hr>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/img-credit1.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>OHOMEBANK World MasterCard - Golf...</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Hoàn tiền tới <b>8%</b> (tối đa lên đến 36 triệu đồng/ năm) khi chi tiêu cho <b>y tế, giáo
+                                dục</b></li>
+                        <li><b>Miễn phí</b> phòng chờ sân bay khắp Việt Nam</li>
+                        <li><b>Hoàn phí</b> thường niên (năm đầu & các năm tiếp theo khi chi tiêu đạt điều kiện)</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/img-credit2.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>OHOMEBANK World MasterCard</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Hoàn tiền tới <b>8%</b> (tối đa lên đến 36 triệu đồng/ năm) khi chi tiêu cho <b>y tế, giáo
+                                dục</b></li>
+                        <li><b>Miễn phí</b> phòng chờ sân bay khắp Việt Nam</li>
+                        <li><b>Hoàn phí</b> thường niên (năm đầu & các năm tiếp theo khi chi tiêu đạt điều kiện)</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/img-credit3.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>OHOMEBANK Visa Platinum</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Hoàn tới <b>10%</b> cho các giao dịch chi tiêu hàng ngày (giải trí, di chuyển, giao dịch lưu
+                            thông tin thẻ)</li>
+                        <li>Hạn mức lên tới <b>1 tỷ đồng</b></li>
+                        <li><b>Hoàn phí</b> thường niên (năm đầu & các năm tiếp theo khi chi tiêu đạt điều kiện)</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/img-credit4.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>OHOMEBANK MobiFone Visa Platinum</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Tích lũy điểm thưởng mọi giao dịch</li>
+                        <li><b>X5</b> điểm với giao dịch nước ngoài</li>
+                        <li>Điểm thưởng vô thời hạn</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/img-credit5.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>OHOMEBANK VietNam Airlines Visa Platinum</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Đặc quyền nâng hạng thẻ Vàng Lotusmiles</li>
+                        <li>QUyền lợi đặc biệt cho KH và người thân</li>
+                        <li>Quy đổi dặm thưởng siêu hấp dẫn</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/img-credit6.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>OHOMEBANK Visa Gold</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+
+                        <li>Hoàn tiền <b>6%</b> khi chi tiêu <b>ẩm thực cuối tuần </b>(tới 7,2 triệu đồng/ năm)</li>
+                        <li>Trả góp <b>0%</b></li>
+                        <li><b>Hoàn phí</b> thường niên (năm đầu & các năm tiếp theo khi chi tiêu đạt điều kiện)</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/img-credit7.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p> OHOMEBANK Visa Classic</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Tích điểm với <b>mọi giao dịch</b></li>
+                        <li>Trả góp <b>0%</b></li>
+                        <li><b>Hoàn phí</b> thường niên (năm đầu & các năm tiếp theo khi chi tiêu đạt điều kiện)</li>
+                    </ul>
+                    <p>TẢI APP NGAY</p>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/img-credit8.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p> OHOMEBANK Visa FreeGo</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Sản phẩm dành riêng cho KH trẻ</li>
+                        <li>Mở thẻ Online - Hồ sơ đơn giản</li>
+                        <li>Tích điểm <b>5%</b> chi tiêu Online</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/img-credit9.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p> OHOMEBANK Momo Visa Platinum</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>100% online có thẻ xài ngay</li>
+                        <li>Ưu đãi mỗi tuần cho Siêu thị, Ẩm thực, Đồ uống</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/img-credit10.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p> OHOMEBANK JCB CashBack</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li><b>Hoàn tiền 10%</b> khi chi tiêu ẩm thực</li>
+                        <li><b>Trả góp 0%</b></li>
+                        <li><b>Hoàn phí thường niên</b> (năm đầu & các năm tiếp theo khi chi tiêu đạt điều kiện)</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+    </section>
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu từ</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+    <div class="hrr">
+        <hr>
+    </div>
+    <section class="section2 hidden-section">
+        <div class="footer">
+            <div class="footer-lv1">
+                <h5>Khách hàng cá nhân</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Cho vay</li>
+                <li class="list-item">Tiết kiệm</li>
+                <li class="list-item">Bảo hiểm</li>
+                <li class="list-item">Sản phẩm khác</li>
+                <li class="list-item">Tiện ích</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Khách hàng doanh nghiệp</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Tiền gửi</li>
+                <li class="list-item">Thanh toán Quốc tế</li>
+                <li class="list-item">Bảo lãnh</li>
+                <li class="list-item">Cho vay & Tài trợ</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Sản phẩm khác</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Về Ohome</h5>
+                <li class="list-item">Lịch sử phát triển</li>
+                <li class="list-item">Ban lãnh đạo</li>
+                <li class="list-item">Sơ đồ tổ chức</li>
+                <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                <li class="list-item">Giá trị cốt lõi</li>
+                <li class="list-item">Hoạt dộng cộng đồng</li>
+                <li class="list-item">Giải thưởng</li>
+                <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+            </div>
+            <div class="footer-lv2">
+                <h5>Dịch vụ khách hàng</h5>
+                <div class="list-icon-footer">
+                    <div class="list-icon-lv1">
+                        <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                        <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="list-icon-lv1">
+                        <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="end-footer">
+                        <li class="list-item">Điều khoản sử dụng</li>
+                        <li class="list-item">An toàn sử dụng</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footerr">
+    <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+</footer>
+</body>
+</html>

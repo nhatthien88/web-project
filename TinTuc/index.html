@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức | OHOMME</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- xử lí scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+
+
+    <section class="bgr">
+        <hr>
+        <div class="bgr-img">
+            <img src="..//IMG/bgr_tintuc.jpg" alt="bgr">
+        </div>
+        <p class="a-hover"><a href="http://127.0.0.1:5500/Home/index.html" class="a-hover hidden-section">Trang chủ</a>
+            > <a href="#" class="a-hover">TIN TỨC</a></p>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+        </div>
+    </section>
+
+    <section class="thongtin">
+        <ul>
+            <li>Tin OhomeBank</li>
+            <li>Bản tin thị trường</li>
+            <li>Thông báo</li>
+            <li>Cẩm nang</li>
+            <li>Công bố Lãi suất bình quân</li>
+        </ul>
+    </section>
+
+    <section class="tintuc">
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/Untitled+Session5678+(1)+thump+pc.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>Có gì mới trong chiếc thẻ ưu đãi ẩm thực “thịnh soạn” nhất của OhomeBank</b>
+                <p>
+                    TPBank vừa ra mắt thẻ tín dụng OhomeBank JCB CashBack với chuỗi ưu đãi giảm giá lên tới 30% tại các nhà hàng, hoàn tiền tới 10% cho chi tiêu ẩm thực, miễn phí ...</p>
+            </div>
+        </div>
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/pc+tpbank-860.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>OhomeBank ưu đãi vay vốn 0% dành cho doanh nghiệp thực hiện dự án xanh</b>
+                <p>
+
+			Các dự án, phương án xanh được nhà băng tím ưu đãi lãi suất 0% thuộc các lĩnh vực như: Năng lượng tái tạo, năng lượng sạch; giao thông vận tải bền vững; nôn...</p>
+            </div>
+        </div>
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/pc+4-nhtm.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>OhomeBank đăng ký tham gia Chương trình tín dụng 120.000 tỷ đồng</b>
+                <p>
+                    TPBank, VPBank, MB, TechcomBank đã có văn bản đăng ký tham gia "Chương trình tín dụng 120.000 tỷ đồng cho vay nhà ở xã hội, nhà ở công nhân, cải tạo, xây dự...</p>
+            </div>
+        </div>
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/mn+anh-1tpbank-1721704279185745707883.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>OhomeBank nâng cao trải nghiệm người dùng bằng nền tảng số xuyên kênh đặc biệt</b>
+                <p>
+                    Hàng loạt các giao dịch xuyên kênh hỗ trợ nâng cao trải nghiệm người dùng liên tục được OhomeBank triển khai và nhận được nhiều sự quan tâm của khách hàng. Khá...</p>
+            </div>
+        </div>
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/WAG_8032+pc.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>Trung tâm dữ liệu sinh trắc học, bước đi thần tốc của ngân hàng Việt</b>
+                <p>
+                    Không đợi tới khi những quy định mới về xác thực sinh trắc học ban hành để đảm bảo an toàn và bảo mật cho các giao dịch tài chính cá nhân, từ nhiều năm nay,...</p>
+            </div>
+        </div>
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/pc+Untitled+design.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>Hoàn thiện chính sách thi hành án tín dụng ngân hàng</b>
+                <p>
+                    Nhằm chia sẻ thông tin và những khó khăn, vướng mắc trong quá trình thực thi các bản án tín dụng ngân hàng cũng như lắng nghe ý kiến phản hồi từ các TCTD, đ...</p>
+            </div>
+        </div>
+        <div class="tintuc1">
+            <div class="tintuc_img">
+                <img src="../IMG/pc+anh+2.jpg" alt="TÀi trợ ">
+            </div>
+            <div class="tintuc_text">
+                <b>OhomeBank ra mắt sản phẩm vay mua nhà cho người thân dịp Vu Lan báo hiếu lãi suất từ 0%</b>
+                <p>
+                    Với nhiều người, một mái ấm mới, khang trang là món quà báo hiếu ý nghĩa nhất dành tặng cho đấng sinh thành. Mong muốn đồng hành cùng những tấm lòng hiếu th...</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="tab_trang">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html">1</a></li>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index2.html">2</a></li>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index3.html">3</a></li>
+        </ul>
+    </div>
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+
+    <div class="hrr"></div>
+    <hr>
+    </div>
+    <section class="section2 hidden-section">
+        <div class="footer">
+            <div class="footer-lv1">
+                <h5>Khách hàng cá nhân</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Cho vay</li>
+                <li class="list-item">Tiết kiệm</li>
+                <li class="list-item">Bảo hiểm</li>
+                <li class="list-item">Sản phẩm khác</li>
+                <li class="list-item">Tiện ích</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Khách hàng doanh nghiệp</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Tiền gửi</li>
+                <li class="list-item">Thanh toán Quốc tế</li>
+                <li class="list-item">Bảo lãnh</li>
+                <li class="list-item">Cho vay & Tài trợ</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Sản phẩm khác</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Về Ohome</h5>
+                <li class="list-item">Lịch sử phát triển</li>
+                <li class="list-item">Ban lãnh đạo</li>
+                <li class="list-item">Sơ đồ tổ chức</li>
+                <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                <li class="list-item">Giá trị cốt lõi</li>
+                <li class="list-item">Hoạt dộng cộng đồng</li>
+                <li class="list-item">Giải thưởng</li>
+                <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+            </div>
+            <div class="footer-lv2">
+                <h5>Dịch vụ khách hàng</h5>
+                <div class="list-icon-footer">
+                    <div class="list-icon-lv1">
+                        <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                        <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="list-icon-lv1">
+                        <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="end-footer">
+                        <li class="list-item">Điều khoản sử dụng</li>
+                        <li class="list-item">An toàn sử dụng</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footerr">
+    <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiết Kiệm | OHOME</title>
+    <link rel="stylesheet" href="style-tietkiem.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <!-- xử lí scroll về top  -->
+        <script>
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 0) {
+                        $("#backtop").fadeIn();
+                    } else {
+                        $("#backtop").fadeOut();
+                    }
+                });
+                // sử lý sự kiện khi nhấn vô backtop
+                $("#backtop").click(function () {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 1000);
+                })
+            });
+        </script>
+    
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+    <!-- ======= header max-width===== -->
+    <header class="header-maxwidth">
+        <a class="logo" href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+        <a class="login" href="http://127.0.0.1:5500/dangnhap/index.html"><i class="fa-solid fa-lock"></i></a>
+    </header>
+
+    <section class="bgr">
+        <hr>
+        <div class="bgr-img">
+            <img src="../IMG/tk-bg6.jpg" alt="bgr">
+        </div>
+        <p class="a-hover"><a href="http://127.0.0.1:5500/Home/index.html" class="a-hover hidden-section">Trang chủ</a> > <a href="#" class="a-hover">TIẾT KIỆM</a></p>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </section>
+    <div class="tietkiem">
+        <p>| <span>TIẾT KIỆM</span></p>
+    </div>
+    <section class="section1">
+        <hr>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/tkiem-bg.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm Super Savy</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Gửi dài lãi khủng</li>
+                        <li>Lãi suất lên đến 5,15 %/năm</li>
+                    </ul>
+                    <p>TẢI APP NGAY</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/tkiem-bg1.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm Super Savy</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Gửi tiết kiệm từ mọi ngân hàng</li>
+                        <li>Lãi suất lên đến 2,8 %/năm</li>
+                    </ul>
+                    <p>TẢI APP NGAY</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/resize-Phúc-lộc-430x232.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiền Gửi Phúc Lộc</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Hưởng Lãi suất cao</li>
+                        <li>Nhận lãi cả kỳ, chia đều 6 tháng/lần</li>
+                        <li>Linh hoạt chuyển nhượng</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/405707-PCVOP0-473+(1).jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm Trường An Lộc</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Lãi suất cạnh tranh</li>
+                        <li>Tất toán tại Ohome Bank trên toàn quốc</li>
+                        <li>Ưu đãi hấp dẫn định kỳ</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/tk+tai+loc.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm Tài Lộc</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Kỳ hạn càng dài, lãi suất càng ưu đãi</li>
+                        <li>Linh hoạt chuyển nhượng, cầm cố, chiết khấu/tái chiết khấu</li>
+                        <li>Lãi suất cạnh tranh</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/tkiem-it.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm gửi 6 tháng, lãi suất 12</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Gửi kỳ hạn 6 tháng quay vòng 2 kỳ được hưởng lãi suất bình quân của 12 tháng</li>
+                        <li>Tất tóan sau 6 tháng vẫn nhận đủ lãi suất 6 tháng</li>
+                        <li>Tất toán lại Ohome Bank trên toàn quốc</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/TKGG_Banner+trang+SP+ngoài.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm gửi góp trên App Ohome Bank</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Dễ dàng lập mục tiêu tiết kiệm, gửi góp khoảng nhỏ chỉ từ 50,000Đ</li>
+                        <li>Tự động gửi tiết kiệm hàng ngày/tuần/tháng mà không lo quên nhớ</li>
+                        <li>Gửi tiền, tất toán linh hoạt mọi lúc mọi nơi qua App Ohome Bank</li>
+                    </ul>
+                    <p>TẢI APP NGAY</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG//tk+ky+han+ngay.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm kỳ hạn ngày</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Gửi theo ngày, hưởng sãi suất theo tháng liền kề</li>
+                        <li>Linh hoạt chuyển nhượng, cầm cố, chiết khấu/tái chiết khấu</li>
+                        <li>Kỳ hạn tối thiểu 30 ngày</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG//tk+thuong+linh+lai+cuoi+ky.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm thường lĩnh lãi cuối kỳ</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Lãi suất cạnh tranh</li>
+                        <li>Tất toán tại Ohome Bank trên toàn quốc</li>
+                        <li>Ưu đãi hấp dẫn định kỳ</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/tk+thuong+linh+lai+dau+ky.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm thường lĩnh lãi đầu kỳ</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Nhận lãi ngay khi mở sổ</li>
+                        <li>Linh hoạt chuyển nhượng, cầm cố, chiết khấu/tái chiết khấu</li>
+                        <li>Tất toán trước hạn</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/tk+thuong+linh+lai+dinh+ky.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm thường lĩnh lãi định kỳ</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Lãi suất cạnh tranh</li>
+                        <li>Nhận tiền lãi định kỳ theo tháng/quý</li>
+                        <li>Linh hoạt chuyển nhượng, cầm cố, chiết khấu/tái chiết khấu</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/Banner+LiveBank++(414+×+240+px).png" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm tại Ohome Bank LiveBank 24/7</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Gửi tiền tiện lợi 24/7 với hệ thống ngân hàng số tự động lớn nhất Việt Nam</li>
+                        <li>Lãi suất gửi tiết kiệm hấp dẫn, cao hơn tại CN/PGD</li>
+                        <li>Trải nghiệm giao dịch an toàn bằng gương mặt & vân tay</li>
+                    </ul>
+                    <p>TẢI APP NGAY</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/10_Tiết+kiệm+điện+tử+430x242.png" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiết kiệm tiền điện tử</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Lãi suất hấp dẫn, cạnh tranh</li>
+                        <li>Tiện lợi, nhanh chóng, không cần tới ngân hàng</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG/tkiem-it1.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiền Gửi Tiết Kiệm Trường Phát Lộc</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Lãi suất hấp dẫn</li>
+                        <li>Có thể được chuyển nhượng, tất toán tại Ohome Bank toàn quốc</li>
+                    </ul>
+                    <p>TẢI APP NGAY</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section1 flex-section">
+            <div class="child-info1">
+                <img src="../IMG/430x232.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiền gửi Bảo An Lộc </p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Lãi suất cạnh tranh</li>
+                        <li>Tất toán tại Ohome Bank trên toàn quốc</li>
+                        <li>Linh hoạt chuyển nhượng, cầm cố, chiết khấu/tái chiết khấu</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div> 
+            </div>
+            <div class="child-info2">
+                <img src="../IMG//bao+an+loc+430x232.jpg" alt="img">
+                <div class="xemthem flex">
+                    <p>Tiền gửi Bảo An Lộc lĩnh lãi định kỳ</p>
+                    <a href="#">XEM THÊM ></a>
+                </div>
+                <hr>
+                <div class="khuyenmai flex">
+                    <ul class="info-khuyenmai">
+                        <li>Nhận tiền lãi định kỳ theo tháng/quý</li>
+                        <li>Tất toán tại Ohome Bank trên toàn quốc</li>
+                        <li>Linh hoạt chuyển nhượng, cầm cố, chiết khấu/tái chiết khấu</li>
+                    </ul>
+                    <p>ĐĂNG KÝ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+    <div class="hrr">
+        <hr>
+    </div>
+    <section class="section2 hidden-section">
+        <div class="footer">
+                <div class="footer-lv1">
+                    <h5>Khách hàng cá nhân</h5>
+                    <li class="list-item">Ngân hàng Số</li>
+                    <li class="list-item">Tài khoản</li>
+                    <li class="list-item">Thẻ</li>
+                    <li class="list-item">Cho vay</li>
+                    <li class="list-item">Tiết kiệm</li>
+                    <li class="list-item">Bảo hiểm</li>
+                    <li class="list-item">Sản phẩm khác</li>
+                    <li class="list-item">Tiện ích</li>
+                </div>
+                <div class="footer-lv1">
+                    <h5>Khách hàng doanh nghiệp</h5>
+                    <li class="list-item">Ngân hàng Số</li>
+                    <li class="list-item">Tài khoản</li>
+                    <li class="list-item">Tiền gửi</li>
+                    <li class="list-item">Thanh toán Quốc tế</li>
+                    <li class="list-item">Bảo lãnh</li>
+                    <li class="list-item">Cho vay & Tài trợ</li>
+                    <li class="list-item">Thẻ</li>
+                    <li class="list-item">Sản phẩm khác</li>
+                </div>
+                <div class="footer-lv1">
+                    <h5>Về Ohome</h5>
+                    <li class="list-item">Lịch sử phát triển</li>
+                    <li class="list-item">Ban lãnh đạo</li>
+                    <li class="list-item">Sơ đồ tổ chức</li>
+                    <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                    <li class="list-item">Giá trị cốt lõi</li>
+                    <li class="list-item">Hoạt dộng cộng đồng</li>
+                    <li class="list-item">Giải thưởng</li>
+                    <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+                </div>
+                <div class="footer-lv2">
+                    <h5>Dịch vụ khách hàng</h5>
+                    <div class="list-icon-footer">
+                        <div class="list-icon-lv1">
+                            <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                            <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                        <div class="list-icon-lv1">
+                            <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                        <div class="end-footer">
+                            <li class="list-item">Điều khoản sử dụng</li>
+                            <li class="list-item">An toàn sử dụng</li>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+</body>
+<footer class="footerr">
+    <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+</footer>
+</html>

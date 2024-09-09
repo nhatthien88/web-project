@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyển Dụng | OHOME</title>
+    <link rel="stylesheet" href="tuyendung.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- xử lí scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+
+    <header>
+        <div class="header flex">
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+            <div></div>
+            <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+            <div></div>
+            <div></div>
+            <div class="login flex">
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+            </div>
+            <div class="search flex">
+                <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div></div>
+        </div>
+    </header>
+    <div class="text">
+        <p>Tuyển dụng</p>
+        <h1>Gia Nhập OhomeBank</h1>
+    </div>
+
+    <section class="bgr">
+        <hr>
+        <div class="bgr-img">
+            <img src="../IMG/bgcareer.jpg" alt="bgr">
+        </div>
+        <div class="tieuchi">
+            <h2>Tưởng tượng.</h2>
+            <h2>Sự đổi mới.</h2>
+            <h2>Chỉ huy.</h2>
+        </div>
+        <div class="phone">
+            <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <div id="backtop">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </section>
+
+    <section class="vitri">
+        <div class="vitri_tuyendung">
+            <h1>Các vị trí tuyển dụng</h1>
+            <p>Cùng OhomeBank kiến tạo các doanh nghiệp tương lai! Bạn sẽ tham gia với vai trò là: </p>
+        </div>
+        <div class="thongtin">
+            <div class="thongtin1">
+                <div class="noidung">
+                    <div class="tieude">
+                        <div class="tieude_img">
+                            <img src="../IMG/it@2x.png" alt="">
+                        </div>
+                        <div class="tieude_text">
+                            <h2>Nhà phân tích kinh doanh trẻ AI</h2>
+                        </div>
+                    </div>
+                    <p>Với tư cách là Chuyên viên phân tích kinh doanh AI Junior tại OhomeBank, bạn sẽ đóng vai trò
+                        quan trọng trong việc hỗ trợ nhóm nghiên cứu xu hướng AI & GenAI và áp dụng các công nghệ này để
+                        đáp ứng các nhu cầu kinh doanh cụ thể. Bạn sẽ hợp tác chặt chẽ với các thành viên cấp cao trong
+                        nhóm để giúp xây dựng các sản phẩm và dịch vụ AI & GenAI, đóng góp cho các dự án nội bộ và các
+                        giải pháp sẵn sàng cho thị trường.</p>
+                </div>
+            </div>
+
+            <div class="thongtin1">
+                <div class="noidung">
+                    <div class="tieude">
+                        <div class="tieude_img">
+                            <img src="../IMG/ba@2x.png" alt="">
+                        </div>
+                        <div class="tieude_text">
+                            <h2>Kiến trúc sư kỹ thuật</h2>
+                        </div>
+                    </div>
+                    <p>Với tư cách là Kiến trúc sư kỹ thuật, bạn sẽ chịu trách nhiệm thiết kế và triển khai các giải
+                        pháp kỹ thuật phù hợp với mục tiêu kinh doanh của khách hàng. Bạn sẽ hợp tác chặt chẽ với các
+                        nhóm tư vấn để chuyển các yêu cầu kinh doanh thành các giải pháp công nghệ, đảm bảo chúng có khả
+                        năng mở rộng, bảo mật và phù hợp với các phương pháp hay nhất trong ngành. Vai trò này mang lại
+                        cơ hội đi du lịch hoặc chuyển ra nước ngoài để hỗ trợ khách hàng toàn cầu.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thongtin">
+            <div class="thongtin1">
+                <div class="noidung">
+                    <div class="tieude">
+                        <div class="tieude_img">
+                            <img src="../IMG/sap@2x.png" alt="">
+                        </div>
+                        <div class="tieude_text">
+                            <h2>Trợ lý điều hành bán hàng</h2>
+                        </div>
+                    </div>
+                    <p>Với tư cách là Trợ lý Giám đốc Kinh doanh tại OhomeBank, bạn sẽ đóng một vai trò quan trọng trong việc nuôi dưỡng mối quan hệ với các khách hàng quý giá của chúng tôi. Trách nhiệm chính của bạn sẽ là cung cấp sự hỗ trợ đặc biệt và đảm bảo sự hài lòng của khách hàng. Vị trí này mang đến cơ hội tuyệt vời để tích lũy kinh nghiệm trong quản lý khách hàng và phát triển sự nghiệp của bạn trong ngành tư vấn.</p>
+                </div>
+            </div>
+
+            <div class="thongtin1">
+                <div class="noidung">
+                    <div class="tieude">
+                        <div class="tieude_img">
+                            <img src="../IMG/sales@2x.png" alt="">
+                        </div>
+                        <div class="tieude_text">
+                            <h2>Nhà phân tích kinh doanh</h2>
+                        </div>
+                    </div>
+                    <p>Vị trí này dành cho các ứng viên có kỹ năng ứng dụng và tìm kiếm cơ hội làm việc trong lĩnh vực dịch vụ tư vấn tại  Digital, Việt Nam. Nhà phân tích kinh doanh (Tư vấn cấp dưới) sẽ tham gia các nhóm (chuyển đổi kỹ thuật số, ESG hoặc chuyển đổi kinh doanh) và trực tiếp làm việc với khách hàng Ohome chúng tôi.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thongtin">
+            <div class="thongtin1">
+                <div class="noidung">
+                    <div class="tieude">
+                        <div class="tieude_img">
+                            <img src="../IMG/sales@2x (1).png" alt="">
+                        </div>
+                        <div class="tieude_text">
+                            <h2>Thực tập sinh nhân sự</h2>
+                        </div>
+                    </div>
+                    <p>OhomeBank đang tìm kiếm một thực tập sinh đam mê và có định hướng chi tiết để gia nhập đội ngũ nhân sự đang phát triển của chúng tôi. Với vai trò thú vị này, bạn sẽ đóng vai trò quan trọng trong việc hỗ trợ quá trình tuyển dụng và giúp chúng tôi thu hút những nhân tài hàng đầu về với OhomeBank.</p>
+                </div>
+            </div>
+
+            <div class="thongtin1">
+                <div class="noidung">
+                    <div class="tieude">
+                        <div class="tieude_img">
+                            <img src="../IMG/dx@2x.png" alt="">
+                        </div>
+                        <div class="tieude_text">
+                            <h2>Thực tập sinh phân tích kinh doanh</h2>
+                        </div>
+                    </div>
+                    <p>Với tư cách là Thực tập sinh Phân tích Kinh doanh, bạn sẽ là một phần không thể thiếu trong nhóm tư vấn của chúng tôi, hỗ trợ các dự án và cấp cao nhằm thúc đẩy chuyển đổi kỹ thuật số cho khách hàng của chúng tôi. Bạn sẽ có cơ hội hợp tác chặt chẽ với các nhà phân tích, chuyên gia tư vấn giàu kinh nghiệm để tích lũy kinh nghiệm thực tế trong ngành tư vấn kỹ thuật số. Chương trình thực tập này được thiết kế để cung cấp cho bạn nền tảng vững chắc về phân tích kinh doanh và tiếp xúc với nhiều hoạt động tư vấn kỹ thuật số.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="timhieuthem hidden-section">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+            <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tuyển dụng</a></li>
+            <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+            <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+            <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+            <li><a href="#" class="tht-hover">Sitemap</a></li>
+    </div>
+    <div class="hrr">
+        <hr>
+    </div>
+    <section class="section2 hidden-section">
+        <div class="footer">
+            <div class="footer-lv1">
+                <h5>Khách hàng cá nhân</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Cho vay</li>
+                <li class="list-item">Tiết kiệm</li>
+                <li class="list-item">Bảo hiểm</li>
+                <li class="list-item">Sản phẩm khác</li>
+                <li class="list-item">Tiện ích</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Khách hàng doanh nghiệp</h5>
+                <li class="list-item">Ngân hàng Số</li>
+                <li class="list-item">Tài khoản</li>
+                <li class="list-item">Tiền gửi</li>
+                <li class="list-item">Thanh toán Quốc tế</li>
+                <li class="list-item">Bảo lãnh</li>
+                <li class="list-item">Cho vay & Tài trợ</li>
+                <li class="list-item">Thẻ</li>
+                <li class="list-item">Sản phẩm khác</li>
+            </div>
+            <div class="footer-lv1">
+                <h5>Về Ohome</h5>
+                <li class="list-item">Lịch sử phát triển</li>
+                <li class="list-item">Ban lãnh đạo</li>
+                <li class="list-item">Sơ đồ tổ chức</li>
+                <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+                <li class="list-item">Giá trị cốt lõi</li>
+                <li class="list-item">Hoạt dộng cộng đồng</li>
+                <li class="list-item">Giải thưởng</li>
+                <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+            </div>
+            <div class="footer-lv2">
+                <h5>Dịch vụ khách hàng</h5>
+                <div class="list-icon-footer">
+                    <div class="list-icon-lv1">
+                        <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                        <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="list-icon-lv1">
+                        <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="end-footer">
+                        <li class="list-item">Điều khoản sử dụng</li>
+                        <li class="list-item">An toàn sử dụng</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footerr">
+    <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header-maxwidth{
+    display: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between; 
+}
+.header{
+    height: 60px;
+    justify-items: center;
+    align-items: center;
+    background: #5E2E86;
+    color: white;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header img{
+    height: 130%;
+    width: 130px;
+}
+a{
+    text-decoration: none;
+} 
+.header a{
+    color: white;
+    font-weight: bold;
+}
+.login a{
+    color: #5E2E86;
+}
+.login{
+    padding: 8px;
+    background: white;
+    color:#5E2E86 ;
+    border-radius: 10px;
+}
+.login i{
+    margin-right: 3px;
+}
+.search a{
+    margin-left: 3px;
+    margin-top: 9px;
+    align-items: center;
+    justify-items: center;
+}
+.search input{
+    border-radius: 10px;
+    padding: 7px;
+}
+.bgr{
+    padding-top: 60px;
+    position: relative;
+}
+.bgr hr{
+    height: 6px;
+    background: #E56D25; 
+}
+.bgr .phone{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    animation: shake 0.5s infinite;
+    z-index: 1000;
+}
+@keyframes shake {
+    0% { transform: rotate(0); }
+    20% { transform: rotate(10deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg); }
+    100% { transform: rotate(0); }
+}
+#backtop {
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+.bgr .bgr-img{
+    width: 100%;
+}
+.bgr img{
+    width: 100%;
+    position: relative;
+}
+.bgr p{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+}
+.bgr a{
+    color: white;
+    font-weight: bold;
+}
+.bgr .a-hover a:hover{
+    font-size: 25px;
+    color: #5E2E86;
+}
+.tietkiem {
+    margin: 25px;
+    margin-left: 252px;
+    
+}
+.tietkiem p{
+    color: #E56D25;
+}
+.tietkiem span{
+    color: black;
+    padding-left: 10px;
+}
+.section1{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+.section1 hr{
+    height: 2px;
+    background: #5E2E86;
+    margin-bottom: 10px;
+}
+.section1 .info-section1 .child-info1{
+    background: #F8F8F8;
+    border-radius: 10px;
+    width: 50%;
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+.section1 .info-section1 .child-info1:hover{
+    transform: translateY(-15px);
+}
+.section1 .info-section1 .child-info1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section1 .info-section1 .child-info1 .xemthem p{
+    padding: 15px;
+    font-weight: bold;
+}
+.section1 .info-section1 .child-info1 .xemthem a{
+    padding-top: 15px;
+    padding-right: 10px;
+    color: #5E2E86;
+}
+.section1 .info-section1 .child-info1 .khuyenmai ul{
+    padding: 20px;
+    padding-top: 4px;
+    width: 70%;
+}
+.section1 .info-section1 .child-info1 .khuyenmai ul li{
+    line-height: 1.7;
+    color: #393939;
+}
+.section1 .info-section1 .child-info1 .khuyenmai{
+    font-size: 12px;
+}
+.section1 .info-section1 .child-info1 .khuyenmai p{
+    border-radius: 5px;
+    height: 30px;
+    padding: 7px;
+    background: #E89A40;
+    color: white;
+    margin: 10px;
+}
+.section1 .info-section1 .child-info1 .khuyenmai p:hover{
+    color: black;
+    font-weight: bold;
+}
+.flex-section{
+    display: flex;
+}
+.section1 .info-section1 .child-info2{
+    background: #F8F8F8;
+    border-radius: 10px;
+    width: 50%;
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+.section1 .info-section1 .child-info2:hover{
+    transform: translateY(-15px);
+}
+.section1 .info-section1 .child-info2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section1 .info-section1 .child-info2 .xemthem p{
+    padding: 15px;
+    font-weight: bold;
+}
+.section1 .info-section1 .child-info2 .xemthem a{
+    padding-top: 15px;
+    padding-right: 10px;
+    color: #5E2E86;
+}
+.section1 .info-section1 .child-info2 .khuyenmai{
+    font-size: 12px;
+}
+.section1 .info-section1 .child-info2 .khuyenmai ul{
+    padding: 20px;
+    padding-top: 4px;
+    width: 70%;
+}
+.section1 .info-section1 .child-info2 .khuyenmai ul li{
+    line-height: 1.7;
+    color: #393939;
+}
+.section1 .info-section1 .child-info2 .khuyenmai p{
+    border-radius: 5px;
+    height: 30px;
+    padding: 7px;
+    background: #E89A40;
+    color: white;
+    margin: 10px;
+}
+.section1 .info-section1 .child-info2 .khuyenmai p:hover{
+    color: black;
+    font-weight: bold;
+}
+.timhieuthem{
+    background: #F7F6FC;
+    height: 30px;
+}
+.timhieuthem ul{
+    display: flex;
+    margin-left: 280px;
+    padding: 8px;
+}
+.timhieuthem ul li{
+    list-style-type: none;
+}
+.timhieuthem ul a{
+    color: black;
+    padding: 30px;
+    margin-top: 10px;
+}
+.hrr hr{
+    margin-top: 1px;
+    height: 3px;
+    background: linear-gradient(to left, #E56D25, #7835BA); 
+}
+.tht-hover:hover{
+    color: #5E2E86;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    max-width: 85%;
+    margin: auto;
+    padding: 20px 0; 
+}
+
+.footer-lv1{
+    list-style-type: none;
+    margin: auto;
+    max-width: 100%;
+}
+
+.section2{
+    background-color: #ececec;
+}
+
+.footer-lv1 li{
+    font-size: small;
+    padding-bottom: 7px;
+}
+.footer-lv1 h5{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.sdt{
+    background-color: #7b35ba;
+    border-radius: 3px;
+    padding: 4px 18px;
+    color: white;
+    font-weight: bold;
+}
+/* .fa-phone{
+    padding-right: 10px;
+} */
+.mail{
+    padding: 2px 3px;
+    background-color: #7b35ba;
+    border-radius: 3px;
+    padding: 4px 7px;
+    text-align: center;
+    margin-left: 8px;
+    color: white;
+}
+.list-icon{
+    padding: 2px 3px;
+    background-color: #7b35ba;
+    border-radius: 3px;
+    padding: 4px 7px;
+    color: white;
+    margin-left: 7px;
+}
+
+.list-icon-lv1{
+    margin-top: 15px;
+}
+.end-footer {
+    margin-top: 15px;
+}
+.list-icon1 {
+    background-color: #7b35ba;
+    color: white;
+    padding: 4px 9px 4px 9px;
+    border-radius: 3px;
+    text-align: center;
+}
+.list-icon3 {
+    background-color: #7b35ba;
+    color: white;
+    padding: 4px 5px 4px 5px;
+    border-radius: 3px;
+   margin-left: 6px;
+}
+.footer-lv2{
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+.footer-lv2 li{
+    font-size: small;
+}
+
+.footerr{
+    margin-top: 0px;
+    background: #5E2E86;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    color: #E9E9E9;
+}
+@media only screen and (max-width: 700px){
+    *{
+        box-sizing: border-box;
+    }
+    .hidden-section{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .header-maxwidth{
+        display: block;
+        display: flex;
+        background: #5E2E86;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .header-maxwidth img{
+        width: 25%;
+    }
+    .header-maxwidth .login{
+        background: #5E2E86;
+    }
+    .header-maxwidth i{
+        color: white;
+        right: 100px;
+    }
+    .bgr{
+        padding-top: 0px;
+        position: relative;
+    }
+    .bgr .bgr-img{
+        width: 100%;
+    }
+    .bgr p{
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        font-size: 10px;
+    }
+    .tietkiem{
+        padding: 5px;
+        margin-left: 0px;
+    }
+    .tietkiem span{
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    /* nếu tràn thì cho nó xuống dòng  */
+    
+    .section1 .flex-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    /* cho mỗi info  con rộng full  */
+    .section1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .section1 .flex-section .child-info1{
+        width: 100%;
+    }
+    .section1 .flex-section .child-info2{
+        width: 100%;
+    }
+    .section1 .flex-section .khuyenmai p{
+       height: 200px;
+       text-align: center;
+    }
+}
